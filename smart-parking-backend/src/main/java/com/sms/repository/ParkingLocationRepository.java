@@ -1,0 +1,8 @@
+package com.sms.repository;
+
+import com.sms.entity.ParkingLocation;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ParkingLocationRepository
+        extends JpaRepository<ParkingLocation, Long> {
+}
